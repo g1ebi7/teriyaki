@@ -1,0 +1,97 @@
+.wrapper {
+  max-width: 700px;
+}
+
+.block {
+  @apply p-8 bg-green rounded-2xl;
+  user-select: none;
+
+  > div:first-child {
+    @apply flex items-center justify-between mb-6;
+
+    > div {
+      @apply flex flex-col max-w-xs;
+
+      > h2 {
+        @apply mb-5;
+        color: #000;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 80% */
+        text-transform: capitalize;
+      }
+
+      > span {
+        color: #000;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px; /* 100% */
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  > div:last-child {
+    @apply flex items-center justify-end;
+
+    > div {
+      @apply flex flex-col mr-4;
+
+      > span {
+        color: #000;
+        text-align: right;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px; /* 100% */
+        text-transform: capitalize;
+      }
+
+      > span:first-child {
+        @apply self-end;
+      }
+    }
+  }
+}
+
+.swiper {
+  max-width: 588px;
+  margin: 0 !important;
+}
+
+.scaleLink {
+  @apply transition-transform;
+}
+
+.scaleLink:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1340px) {
+  .cont {
+    @apply flex-col;
+  }
+  .wrapper {
+    @apply mb-6;
+  }
+  .swiper {
+    @apply self-center;
+  }
+}
+
+@media (max-width: 750px) {
+  .swiper {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    @apply text-4xl;
+  }
+}

@@ -1,0 +1,45 @@
+.text {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  text-transform: uppercase;
+}
+
+.swiperCont {
+  @apply px-14 py-10 border-2 border-white rounded-2xl;
+}
+
+.section {
+  > div {
+    > img:first-child {
+      @apply rounded-full animate-graphic;
+      filter: blur(8px);
+    }
+  }
+}
+
+@media (max-width: 1530px) {
+  .cont {
+    @apply flex-col;
+
+    > img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    display: none !important;
+  }
+  .swiperCont {
+    @apply px-6 py-2;
+  }
+  .text {
+    @apply text-sm;
+  }
+}

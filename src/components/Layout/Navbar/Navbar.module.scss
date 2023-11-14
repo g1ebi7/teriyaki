@@ -1,0 +1,15 @@
+.line {
+  @apply bg-black mx-7;
+  width: 80px;
+  height: 1px;
+}
+
+.cont {
+  @apply mt-10;
+}
+
+@media (max-width: 800px) {
+  .cont {
+    @apply flex-col gap-3;
+  }
+}

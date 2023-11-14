@@ -1,0 +1,16 @@
+.block {
+  @apply p-12 border-2 border-white rounded-2xl;
+
+  max-width: 707px;
+}
+
+@media (max-width: 1250px) {
+  .cont {
+    > img {
+      display: none;
+    }
+  }
+  .block {
+    @apply p-5;
+  }
+}
