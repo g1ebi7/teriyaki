@@ -1,0 +1,65 @@
+.gWrap:not(:last-of-type) {
+  @apply mb-10;
+}
+
+.gWrap {
+  @apply select-none;
+
+  .wrap {
+    @apply flex items-center cursor-pointer mb-10 justify-between;
+
+    > h1 {
+      color: #000;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+      text-transform: uppercase;
+    }
+
+    > img {
+      @apply transition-all;
+    }
+
+    > img._active {
+      transform: rotate(180deg);
+    }
+  }
+
+  .content {
+    @apply transition-all overflow-hidden;
+
+    height: 0;
+    opacity: 0;
+
+    > p {
+      color: #000;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px;
+      text-transform: uppercase;
+    }
+  }
+
+  .content._active {
+    height: 200px;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 16px !important;
+  }
+  .content {
+    > p {
+      font-size: 14px !important;
+      line-height: 20px !important;
+    }
+
+    &._active {
+      height: auto !important;
+    }
+  }
+}
