@@ -29,7 +29,7 @@ const Card = ({ tarIndex, price }: ICard) => {
           <li>{t(`tar${tarIndex}-5`)}</li>
           <li>{t(`tar${tarIndex}-6`)}</li>
         </ul>
-        <span className={cl(styles.price, "z-50")}>{`$${price}.00`}</span>
+        <span className={cl(styles.price, "z-50")}>{`€${price}.00`}</span>
         <MButton
           handleClick={handlePayment}
           className="mb-16"

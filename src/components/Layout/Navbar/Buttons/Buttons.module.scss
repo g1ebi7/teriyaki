@@ -3,6 +3,7 @@
 
   > a {
     @apply py-4 px-16;
+    text-wrap: nowrap;
   }
 
   > a:first-child {

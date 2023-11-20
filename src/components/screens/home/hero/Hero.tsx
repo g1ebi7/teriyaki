@@ -25,20 +25,6 @@ const Hero = () => {
           >
             {t("hero")}
           </MTitle>
-          <MButton
-            anim
-            whileHover={{
-              scale: 1.1,
-              transition: { type: "spring", stiffness: 400, damping: 17 },
-            }}
-            whileTap={{
-              scale: 0.9,
-              transition: { type: "spring", stiffness: 400, damping: 17 },
-            }}
-            initial={{ x: -600 }}
-            animate={{ x: 0, transition: { type: "spring", delay: 1 } }}
-            className="self-start"
-          />
         </div>
         <HeroSwiper />
       </Container>

@@ -3,18 +3,17 @@ import { Stripe } from "@stripe/stripe-js";
 import { IUserProps } from "@/types/user.interface";
 
 export const stripeHandlers = {
-  //test 1
   async handlePaymentStart(stripe: Stripe | null, user: IUserProps) {
     await stripe?.redirectToCheckout({
       lineItems: [
         {
-          price: "price_1NjoNmGgimZoyZkMDZuSsc02",
+          price: "price_1No51NGgimZoyZkM73Cpvts0",
           quantity: 1,
         },
       ],
       mode: "payment",
-      successUrl: "http://localhost:5001",
-      cancelUrl: "http://localhost:5001",
+      successUrl: "https://www.teriyakisites.com/",
+      cancelUrl: "https://www.teriyakisites.com/",
       customerEmail: user.email,
     });
   },
@@ -27,8 +26,8 @@ export const stripeHandlers = {
         },
       ],
       mode: "payment",
-      successUrl: "https://teriyaki-frontend.vercel.app/",
-      cancelUrl: "https://teriyaki-frontend.vercel.app/",
+      successUrl: "https://www.teriyakisites.com/",
+      cancelUrl: "https://www.teriyakisites.com/",
       customerEmail: user.email,
     });
   },
@@ -41,8 +40,8 @@ export const stripeHandlers = {
         },
       ],
       mode: "payment",
-      successUrl: "https://teriyaki-frontend.vercel.app/",
-      cancelUrl: "https://teriyaki-frontend.vercel.app/",
+      successUrl: "https://www.teriyakisites.com/",
+      cancelUrl: "https://www.teriyakisites.com/",
       customerEmail: user.email,
     });
   },
@@ -55,8 +54,8 @@ export const stripeHandlers = {
         },
       ],
       mode: "payment",
-      successUrl: "https://teriyaki-frontend.vercel.app/",
-      cancelUrl: "https://teriyaki-frontend.vercel.app/",
+      successUrl: "https://www.teriyakisites.com/",
+      cancelUrl: "https://www.teriyakisites.com/",
       customerEmail: user.email,
     });
   },
@@ -69,8 +68,8 @@ export const stripeHandlers = {
         },
       ],
       mode: "payment",
-      successUrl: "https://teriyaki-frontend.vercel.app/",
-      cancelUrl: "https://teriyaki-frontend.vercel.app/",
+      successUrl: "https://www.teriyakisites.com/",
+      cancelUrl: "https://www.teriyakisites.com/",
       customerEmail: user.email,
     });
   },
