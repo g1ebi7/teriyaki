@@ -19,7 +19,7 @@
 
 @media (max-width: 500px) {
   .title {
-    @apply text-4xl;
+    font-size: 26px !important;
   }
   .hero {
     font-size: 28px !important;

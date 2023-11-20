@@ -34,14 +34,14 @@ const Card = ({ tarIndex, price }: ICard) => {
           handleClick={handlePayment}
           className="mb-16"
           anim
-          whileHover={{
-            scale: 1.1,
-            transition: { type: "spring", stiffness: 400, damping: 17 },
-          }}
-          whileTap={{
-            scale: 0.9,
-            transition: { type: "spring", stiffness: 400, damping: 17 },
-          }}
+          // whileHover={{
+          //   scale: 1.1,
+          //   transition: { type: "spring", stiffness: 400, damping: 17 },
+          // }}
+          // whileTap={{
+          //   scale: 0.9,
+          //   transition: { type: "spring", stiffness: 400, damping: 17 },
+          // }}
         />
         {tarIndex < 3 && <span className={styles.note}>{t("note")}</span>}
       </div>

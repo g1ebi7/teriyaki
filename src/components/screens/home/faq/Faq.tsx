@@ -51,34 +51,6 @@ const Faq = () => {
               title={t("ac-3")}
               content={t("ac-3-t")}
             />
-            <Accordion
-              onClick={handleClick}
-              currentId={currentId}
-              id={4}
-              title={t("ac-4")}
-              content={t("ac-4-t")}
-            />
-            <Accordion
-              onClick={handleClick}
-              currentId={currentId}
-              id={5}
-              title={t("ac-5")}
-              content={t("ac-5-t")}
-            />
-            <Accordion
-              onClick={handleClick}
-              currentId={currentId}
-              id={6}
-              title={t("ac-6")}
-              content={t("ac-6-t")}
-            />
-            <Accordion
-              onClick={handleClick}
-              currentId={currentId}
-              id={7}
-              title={t("ac-7")}
-              content={t("ac-7-t")}
-            />
           </div>
         </div>
       </Container>

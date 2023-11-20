@@ -31,8 +31,6 @@ const Navbar = () => {
         <div className={styles.line}></div>
         <Menu />
       </div>
-      {user && pathname !== "/profile" && <Svg.ProfileIcon />}
-      {user && pathname === "/profile" && <Svg.ExitIcon />}
       {!user && <Buttons />}
     </Container>
   );

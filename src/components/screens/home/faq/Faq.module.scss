@@ -1,7 +1,5 @@
 .block {
-  @apply p-12 border-2 border-white rounded-2xl;
-
-  max-width: 707px;
+  @apply p-12 border-2 border-white rounded-2xl w-full;
 }
 
 @media (max-width: 1250px) {

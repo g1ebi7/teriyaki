@@ -8,7 +8,7 @@ let retry = false;
 const axiosRequest = axios.create({
   baseURL:
     process.env.APP_ENV === "development"
-      ? "http://localhost:3000/api"
+      ? "http://localhost:5001/api"
       : `${process.env.APP_URL}/api`,
   headers: { "Content-Type": "application/json" },
 });

@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Container className="flex justify-between">
         <div>
-          <Link href={"mailto:teriyakisites@gmail.com"}>
+          <Link className={styles.link} href={"mailto:teriyakisites@gmail.com"}>
             teriyakisites@gmail.com
           </Link>
         </div>

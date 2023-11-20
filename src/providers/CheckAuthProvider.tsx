@@ -22,11 +22,11 @@ export const CheckAuthProvider = ({
     }
   }, []);
 
-  useEffect(() => {
-    if (!refreshToken && user) {
-      router.replace("/auth");
-    }
-  }, [router]);
+  // useEffect(() => {
+  //   if (!refreshToken && user) {
+  //     router.replace("/auth");
+  //   }
+  // }, [router]);
 
   return <div>{children}</div>;
 };

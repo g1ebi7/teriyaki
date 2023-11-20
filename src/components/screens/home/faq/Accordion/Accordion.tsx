@@ -30,7 +30,9 @@ const Accordion = ({ title, content, id, onClick, currentId }: IAccordion) => {
       <div
         className={cn(styles.content, { [styles._active]: id === currentId })}
       >
-        <p>{content}</p>
+        <p>
+          <code dangerouslySetInnerHTML={{ __html: content }} />
+        </p>
       </div>
     </div>
   );

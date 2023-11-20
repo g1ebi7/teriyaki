@@ -27,3 +27,9 @@
     bottom: -6px;
   }
 }
+
+@media (max-width: 768px) {
+  .list {
+    @apply flex-col;
+  }
+}

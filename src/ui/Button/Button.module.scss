@@ -10,9 +10,11 @@
   @apply cursor-not-allowed;
 }
 
-.btn:hover {
-  opacity: 0.8;
-  transform: scale(0.9) !important;
+@media (min-width: 768px) {
+  .btn:hover {
+    opacity: 0.8;
+    transform: scale(0.9) !important;
+  }
 }
 
 .mBtn {
@@ -27,6 +29,6 @@
 @media (max-width: 500px) {
   .btn,
   .mBtn {
-    width: 250px;
+    width: 200px;
   }
 }
