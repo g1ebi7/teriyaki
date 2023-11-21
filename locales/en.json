@@ -49,14 +49,15 @@
   "tar2-2": "2-6 PAGES ",
   "tar2-3": "Unique Design Creation",
   "tar2-4": "SEO Optimization",
-  "tar2-5": "Enhanced Security",
+  "tar2-5": "Fast website loading",
   "tar2-6": "Accessibility for All",
 
   "tar3-1": "FAST START",
   "tar3-2": "Your Domain & Web Hosting",
   "tar3-3": "1 Hour of Website Changes per month",
-  "tar3-5": "SSL Certificate",
-  "tar3-6": "Security",
+  "tar3-4": "SSL Certificate",
+  "tar3-5": "Security",
+  "tar3-6": "SEO",
 
   "tar4-1": "Standard",
   "tar4-2": "Your Domain",
@@ -67,9 +68,11 @@
 
   "tar5-1": "Business",
   "tar5-2": "Your Domain",
-  "tar5-3": "Self-Hosting",
+  "tar5-3": "Own-Hosting",
   "tar5-4": "5 Hours of Website Changes per month",
   "tar5-5": "SEO Optimization & SSL Certificate",
   "tar5-6": "Google Analytics",
-  "note": "Includes 1-Month Free Subscription, Followed by 20 Euros Per Month"
+  "note": "Includes 1-Month Free Subscription, Followed by 20 Euros Per Month",
+
+  "month": "month"
 }

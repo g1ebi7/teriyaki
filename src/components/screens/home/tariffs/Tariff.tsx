@@ -9,7 +9,7 @@ import Container from "@/ui/Container/Container";
 import { Title } from "@/ui/Title/Title";
 
 const tarriffsData = [{ price: 290 }, { price: 490 }];
-const subData = [{ price: 23 }, { price: 35 }, { price: 50 }];
+const subData = [{ price: 20 }, { price: 30 }, { price: 40 }];
 
 const Tariff = () => {
   const { t } = useTranslation();

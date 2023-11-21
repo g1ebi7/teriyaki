@@ -41,10 +41,10 @@
 
   "tar1-1": "ONE PAGE",
   "tar1-2": "ONE PAGE-NETTISIVU",
-  "tar1-3": "Nopeaa nettisivun latausta",
+  "tar1-3": "Uniikki suunnittelun luominen",
   "tar1-4": "SEO-optimointi",
   "tar1-5": "Parannettua Turvallisuutta",
-  "tar1-6": "Majoituksen asennus ja oma verkkotunnus",
+  "tar1-6": "Nopeaa nettisivun latausta",
 
   "tar2-1": "Multipage",
   "tar2-2": "2-6 sivua",
@@ -55,9 +55,10 @@
 
   "tar3-1": "FAST START",
   "tar3-2": "verkkotunnuksesi",
-  "tar3-3": "1 tunti töitä nettisivujen muutoksissa kuukaudessa",
-  "tar3-4": "SEO-optimointi",
-  "tar3-5": "SSL-sertifikaatti",
+  "tar3-3": "web hotelli",
+  "tar3-4": "1 tunti töitä nettisivujen muutoksissa kuukaudessa",
+  "tar3-5": "SEO-optimointi",
+  "tar3-6": "SSL-sertifikaatti",
 
   "tar4-1": "STANDART",
   "tar4-2": "verkkotunnuksesi",
@@ -68,10 +69,12 @@
 
   "tar5-1": "BUSINESS",
   "tar5-2": "Verkkotunnuksesi",
-  "tar5-3": "Oma isännöinti",
+  "tar5-3": "WEBHOTELLI",
   "tar5-4": "5 tuntia työmaamuutostyötä kuukaudessa",
   "tar5-5": "SEO-optimointi && SSL-sertifikaatti",
   "tar5-6": "Google Analytics",
 
-  "note": "Sisältää 1 kuukauden ilmaisen tilauksen, jonka jälkeen 20 euroa kuukaudessa"
+  "note": "Sisältää 1 kuukauden ilmaisen tilauksen, jonka jälkeen 20 euroa kuukaudessa",
+
+  "month": "kuukausi"
 }

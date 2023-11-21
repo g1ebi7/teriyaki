@@ -16,8 +16,7 @@ const About = () => {
 
   return (
     <Section className={styles.section}>
-      <Container className={cn("flex justify-between", styles.cont)}>
-        <Image src={graphic} width={560} height={373} alt="Graphic" />
+      <Container className={cn("flex justify-center", styles.cont)}>
         <div className="flex flex-col">
           <div className={styles.swiperCont}>
             <CustomSwiper className="max-w-3xl">

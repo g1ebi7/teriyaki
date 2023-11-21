@@ -29,20 +29,10 @@ const Card = ({ tarIndex, price }: ICard) => {
           <li>{t(`tar${tarIndex}-5`)}</li>
           <li>{t(`tar${tarIndex}-6`)}</li>
         </ul>
-        <span className={cl(styles.price, "z-50")}>{`€${price}.00`}</span>
-        <MButton
-          handleClick={handlePayment}
-          className="mb-16"
-          anim
-          // whileHover={{
-          //   scale: 1.1,
-          //   transition: { type: "spring", stiffness: 400, damping: 17 },
-          // }}
-          // whileTap={{
-          //   scale: 0.9,
-          //   transition: { type: "spring", stiffness: 400, damping: 17 },
-          // }}
-        />
+        <span className={cl(styles.price, "z-50")}>
+          {tarIndex > 2 ? `€${price}.00/${t("month")}` : `€${price}.00`}
+        </span>
+        <MButton handleClick={handlePayment} className="mb-16" anim />
         {tarIndex < 3 && <span className={styles.note}>{t("note")}</span>}
       </div>
     </div>
