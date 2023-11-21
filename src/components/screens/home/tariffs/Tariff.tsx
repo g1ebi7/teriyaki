@@ -23,7 +23,7 @@ const Tariff = () => {
         ))}
         <Title className={cl("mb-10", styles.title)}>Subscriptions</Title>
         {subData.map((tariff, index) => (
-          <Card tarIndex={index + 1} price={tariff.price} key={index} />
+          <Card tarIndex={index + 3} price={tariff.price} key={index} />
         ))}
       </Container>
     </Section>

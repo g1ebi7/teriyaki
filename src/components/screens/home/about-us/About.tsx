@@ -19,7 +19,6 @@ const About = () => {
       <Container className={cn("flex justify-between", styles.cont)}>
         <Image src={graphic} width={560} height={373} alt="Graphic" />
         <div className="flex flex-col">
-          <Title className="mb-10 self-end">{t("about")}</Title>
           <div className={styles.swiperCont}>
             <CustomSwiper className="max-w-3xl">
               <SwiperSlide className="mb-12">
