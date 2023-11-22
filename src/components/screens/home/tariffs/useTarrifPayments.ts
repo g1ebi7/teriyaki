@@ -18,14 +18,19 @@ export const useTarrifPayments = (tarIndex: number) => {
     switch (tarIndex) {
       case 1:
         stripeHandlers.handlePaymentLanding(stripe, user);
+        break;
       case 2:
         stripeHandlers.handlePaymentMulti(stripe, user);
+        break;
       case 3:
         stripeHandlers.handlePaymentStart(stripe, user);
+        break;
       case 4:
         stripeHandlers.handlePaymentStandart(stripe, user);
+        break;
       case 5:
         stripeHandlers.handlePaymentBuisiness(stripe, user);
+        break;
     }
   };
 
